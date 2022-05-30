@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+p {
+  font-size: 27px;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  width: min(400px, 100%);
+  border-radius: 35px;
+  box-shadow: 1px 1px 7px 0 #000a;
+}
+
+.name-quote {
+  font-size: 35px;
+}
+
+.anime-name {
+  font-size: 25px;
+}
