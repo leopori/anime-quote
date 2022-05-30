@@ -27,10 +27,11 @@ const [colorRandom, setColorRandom] = useState(arrayColor[colorRandomQuote])
 const appStyle = {
   backgroundColor: colorRandom
 }
-console.log(animeRandom);
-console.log(colorRandom);
+
  
 const clickButtonAnime = () =>{
+  animeRandomQuote = createNumberRandom(anime)
+  colorRandomQuote = createNumberRandom(arrayColor)
   setAnimeRandom(anime[animeRandomQuote])
   setColorRandom(arrayColor[colorRandomQuote])
 }

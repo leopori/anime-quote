@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const ButtonAnime = ({clickButtonAnime}) => {
+const ButtonAnime = ({ clickButtonAnime }) => {
     return (
         <button onClick={clickButtonAnime} className='buttonNext' >
             &#62;

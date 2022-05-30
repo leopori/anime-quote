@@ -4,7 +4,7 @@ import ButtonAnime from './ButtonAnime'
 
 
 
-const Card = ({ animeRandom, colorRandom, clickButtonAnime}) => {
+const Card = ({ animeRandom, colorRandom, clickButtonAnime }) => {
 
 
     return (
@@ -21,7 +21,7 @@ const Card = ({ animeRandom, colorRandom, clickButtonAnime}) => {
                 {animeRandom.anime}
             </h3>
             <ButtonAnime
-            clickButtonAnime ={clickButtonAnime} 
+                clickButtonAnime={clickButtonAnime}
             />
         </article>
     )
