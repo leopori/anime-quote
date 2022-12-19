@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import useImg from '../hooks/useImg'
 import ButtonAnime from './ButtonAnime'
 
 
@@ -6,22 +7,7 @@ import ButtonAnime from './ButtonAnime'
 
 const Card = ({ animeRandom, colorRandom, clickButtonAnime }) => {
 
-    const [imgChange, setImgChange] = useState("itachi")
-
-
-    useEffect(() => {
-        if (animeRandom.name.includes("itachi")) {
-            setImgChange("itachi")
-        } else if (animeRandom.name.includes("Naruto")) {
-            setImgChange("naruto")
-        }else{
-            setImgChange("itachi")
-        }
-
-
-    }, [animeRandom])
-
-   
+   const {imgChange} = useImg({ animeRandom })
 
 
 
@@ -29,7 +15,7 @@ const Card = ({ animeRandom, colorRandom, clickButtonAnime }) => {
         <article className={`card backgd ${imgChange}`} >
 
             <div className="info">
-                <p className='paragraph'>
+                <p className='paragraph' style={{ color: colorRandom }}>
                     {animeRandom.quote}
                 </p>
 

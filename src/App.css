@@ -16,8 +16,11 @@ p {
   justify-content: center;
   align-items: center;
   gap: 20px;
+
 }
 
+
+/*Styles for the Card.jsx*/
 .card {
   background-color: white;
   padding: 20px;
@@ -28,6 +31,18 @@ p {
   flex-direction: column;
 }
 
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.paragraph {
+  text-align-last: justify;
+}
+
+
 .name-quote {
   font-size: 35px;
 }
@@ -36,11 +51,13 @@ p {
   font-size: 25px;
 }
 
-.divBut{
-  position: relative ;
-  right:-40px ;
-  
+.divBut {
+  position: relative;
+  right: -360px;
+
 }
+
+
 
 /*Toda la parte del backgorund de la card*/
 .backgd {
@@ -48,12 +65,31 @@ p {
   background-repeat: no-repeat;
 }
 
-
-.itachi{
-  background-image: url("./img/aniyuki-itachi-if-50.gif");
-  
+.naruto20{
+  background-image: url("./img/naruto20Years.webp");
 }
 
-.naruto{
+.itachi {
+  background-image: url("./img/aniyuki-itachi-if-50.gif");
+
+}
+
+.naruto {
   background-image: url("./img/naruto.gif");
+}
+
+.kakashi {
+  background-image: url("./img/kakashi-sharingan.gif");
+}
+
+.pain {
+  background-image: url("./img/painEdotense.gif");
+}
+
+.gaara{
+  background-image: url("./img/gaara.gif");
+}
+
+.sasuke{
+  background-image: url("./img/sasuke.gif");
 }
