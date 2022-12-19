@@ -1,4 +1,6 @@
 # anime-quote
 
+ Random Quotes From anime Naruto
+Netlify Display
 
-Hay Random Quotes From anime Naruto
+https://narutoquotes-llamado.netlify.app/ 
