@@ -24,6 +24,8 @@ p {
   width: min(400px, 100%);
   border-radius: 35px;
   box-shadow: 1px 1px 7px 0 #000a;
+  display: flex;
+  flex-direction: column;
 }
 
 .name-quote {
@@ -32,4 +34,26 @@ p {
 
 .anime-name {
   font-size: 25px;
+}
+
+.divBut{
+  position: relative ;
+  right:-40px ;
+  
+}
+
+/*Toda la parte del backgorund de la card*/
+.backgd {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.itachi{
+  background-image: url("./img/aniyuki-itachi-if-50.gif");
+  
+}
+
+.naruto{
+  background-image: url("./img/naruto.gif");
 }

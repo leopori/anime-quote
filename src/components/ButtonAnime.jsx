@@ -9,4 +9,4 @@ const ButtonAnime = ({ clickButtonAnime }) => {
     )
 }
 
-export default ButtonAnime
+export default ButtonAnime 
